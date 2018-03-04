@@ -6,4 +6,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.leesnriud.uilist4.ViewPagerActivity">
 
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_viewpager_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
 </android.support.constraint.ConstraintLayout>
