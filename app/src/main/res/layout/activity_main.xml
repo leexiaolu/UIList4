@@ -29,6 +29,18 @@
             android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bt_pagertitlestrip"
+            android:text="pagertitlestrip"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bt_pagertabstrip"
+            android:text="pagertabstrip"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 

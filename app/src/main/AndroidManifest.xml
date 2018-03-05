@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".ViewFilpperActivity" />
         <activity android:name=".ViewPagerActivity" />
-        <activity android:name=".ViewFlipperForGestureActivity"></activity>
+        <activity android:name=".ViewFlipperForGestureActivity" />
+        <activity android:name=".PagerTitleStripActivity" />
+        <activity android:name=".PagerTabStripActivity"></activity>
     </application>
 
 </manifest>
