@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.bt_viewflipper,R.id.bt_viewflipperforgesture, R.id.bt_viewpager,R.id.bt_pagertitlestrip,R.id.bt_pagertabstrip})
+    @OnClick({R.id.bt_viewflipper,R.id.bt_viewflipperforgesture, R.id.bt_viewpager,R.id.bt_pagertitlestrip,R.id.bt_pagertabstrip,R.id.bt_tabhost})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_viewflipper:
@@ -45,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_pagertabstrip:
                 intent = new Intent(MainActivity.this,PagerTabStripActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.bt_tabhost:
+                intent = new Intent(MainActivity.this,TabhostActivity.class);
                 startActivity(intent);
                 break;
         }

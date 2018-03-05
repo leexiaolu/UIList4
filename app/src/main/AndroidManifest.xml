@@ -20,7 +20,8 @@
         <activity android:name=".ViewPagerActivity" />
         <activity android:name=".ViewFlipperForGestureActivity" />
         <activity android:name=".PagerTitleStripActivity" />
-        <activity android:name=".PagerTabStripActivity"></activity>
+        <activity android:name=".PagerTabStripActivity" />
+        <activity android:name=".TabhostActivity"></activity>
     </application>
 
 </manifest>
