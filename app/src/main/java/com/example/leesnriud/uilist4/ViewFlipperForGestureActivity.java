@@ -10,6 +10,11 @@ import android.widget.ViewFlipper;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * android viewflipper
+ * 支持手势滑动的viewflipper
+ *
+ */
 public class ViewFlipperForGestureActivity extends AppCompatActivity {
 
     private int[] resId = {R.mipmap.page_hello_one,R.mipmap.page_hello_two,
