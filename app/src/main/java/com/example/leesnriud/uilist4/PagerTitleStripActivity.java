@@ -12,6 +12,10 @@ import java.util.ArrayList;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * android pagertitlestrip 普通文字效果
+ *
+ */
 public class PagerTitleStripActivity extends AppCompatActivity {
 
     private ArrayList<View> aLists;

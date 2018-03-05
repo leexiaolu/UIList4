@@ -18,6 +18,18 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
+/**
+ * android viewpager 实现tabhost 效果
+ *
+ * flipInterval 指定view动画间的时间间隔
+ * persistentDrawingCache 设置控件的缓存策略
+ *  none 不在内存中保存绘图缓存
+ *  animation 只保存动画绘图缓存
+ *  scrolling 只保存滚动效果绘图缓存
+ *  all 所有绘图都缓存
+ *  可以同时选择两个 用 | 分开
+ *
+ */
 public class TabhostActivity extends AppCompatActivity implements ViewPager.OnPageChangeListener{
 
     private ArrayList<View> listViews;

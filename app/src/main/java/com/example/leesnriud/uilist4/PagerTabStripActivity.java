@@ -11,6 +11,10 @@ import java.util.ArrayList;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * android pagertabstrip 带下划线效果
+ *
+ */
 public class PagerTabStripActivity extends AppCompatActivity {
 
     private ArrayList<View> aLists;

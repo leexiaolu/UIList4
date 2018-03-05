@@ -11,6 +11,10 @@ import java.util.ArrayList;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * android viewpager
+ *
+ */
 public class ViewPagerActivity extends AppCompatActivity {
 
 
